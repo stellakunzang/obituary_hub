@@ -139,7 +139,7 @@ All requests below are tacked onto the end of this root URL: [https://api.nytime
 
 ## Optimization <a name="optimization"></a>
 
-The requirements of this project dictated we needed to implement one of three different types of optimization. We chose to focus on caching. All obituaries from our database are cached so that when a page is reloaded of the obituary appears on another page the results have already been cached and the website loads quickly because it is not making a redundant request of our database. The caching portion of our project was implemented single-handedly by [Eric Larson](https://github.com/EricLarson2020).
+The requirements of this project dictated we needed to implement one of three different types of optimization. We chose to focus on caching. All obituaries from our database are cached so that when a page is reloaded or the obituary appears on another page the results have already been cached and the website loads quickly because it is not making a redundant request of our database. The caching portion of our project was implemented single-handedly by [Eric Larson](https://github.com/EricLarson2020).
 
 Another example of optimization in this project is pagination. [Jack Cullen](https://github.com/jpc20) implemented pagination ousing the `will-paginate` gem. 
 ## Extensions <a name="extensions"></a>
